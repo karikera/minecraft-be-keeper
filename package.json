@@ -1,0 +1,49 @@
+{
+  "name": "minecraft-be-keeper",
+  "version": "1.0.0",
+  "description": "Keeper for Minecraft Bedrock Dedicated Server",
+  "main": "index.js",
+  "dependencies": {
+    "@types/atob": "^2.1.2",
+    "@types/body-parser": "^1.17.1",
+    "@types/express": "^4.17.1",
+    "@types/express-fileupload": "^1.1.0",
+    "@types/express-session": "^1.15.14",
+    "@types/unzipper": "^0.10.0",
+    "atob": "^2.1.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.5",
+    "express-session": "^1.16.2",
+    "google-auth-library": "^5.2.0",
+    "googleapis": "^42.0.0",
+    "googleapis-common": "^3.1.0",
+    "kr-udp-proxy": "^1.0.12",
+    "krspawn": "^2.0.3",
+    "open": "^6.4.0",
+    "source-map-support": "^0.5.13",
+    "unzipper": "^0.10.4",
+    "ws": "^7.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karikera/minecraft-be-keeper"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.3",
+    "@types/ws": "^6.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "minecraft-be"
+  ],
+  "pkg": {
+    "scripts": "bin/*.js",
+    "assets": []
+  },
+  "author": "karikera",
+  "license": "ISC"
+}

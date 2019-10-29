@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "sourceMap": true,
+        "lib": ["esnext"],
+        "target": "esnext",
+        "module": "commonjs",
+        "newLine": "LF",
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "declaration": true,
+        "outDir": "bin",
+        "rootDir": "src"
+    }
+}
